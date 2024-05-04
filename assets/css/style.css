@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.box{
+    display: flex;
+    height: 100vh;
+}
+.contactos{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    flex-grow: 1;
+    max-width: 380px;
+    
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+    
+}
+.thumbnail-tiny, .thumbnail-normal {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #BEC1BB;
+    padding: 20px 0px;
+    width: 100%;
+}
+.thumbnail-tiny img{
+    width: 32px;
+    border-radius: 50%;
+}
+.thumbnail-tiny p{
+    font-size: 14px;
+}
+.thumbnail-tiny small{
+    font-size: 10px;
+}
+
+.thumbnail-normal img{
+    width: 46px;
+    border-radius: 50%;
+}
+
+.user-picture{
+    display: flex;
+    justify-content:center;
+    align-self:center;
+    flex-grow: 1;
+}
+.user-info{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 5;
+}
+.user-icons {
+    justify-content:center;
+    align-self:center;
+    flex-grow: 1;
+}
+.user-icons ul{
+    display: flex;
+    gap: 1rem;
+    color: #BEC1BB;
+    font-size: 24px;
+}
+.user-icons li{
+    list-style: none;
+    
+}
+
+.chat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ede4ff;
+    flex-grow: 3;
+    height: 100vh;
+    
+}
+
+.call-to-action{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.call-to-action img{
+    width: 15rem;
+}
+.call-to-action .titulo{
+    font-size: 45px;
+}
+.call-to-action .leyenda{
+    text-align: center;
+    max-width: 500px;
+}
+
+.flex-boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #BEC1BB;
+    width: 100%;
+    padding: 2rem 0;
+}
+.flex-newchat{
+    color: white;
+    background-color: #c5a6ff;
+    height: 4rem;
+    width: 75%;
+    cursor: pointer;
+}
+.flex-newchat:hover{
+    background-color: #CDC3E6;
+}
+.flex-newchat:active{
+    background-color:#BEC1BB;
+}
+
+.open-sans-regular {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
