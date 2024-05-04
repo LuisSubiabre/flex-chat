@@ -21,7 +21,6 @@ body {
     background-color: white;
     flex-grow: 1;
     max-width: 380px;
-    
     border: 1px solid #ccc;
     overflow-y: scroll;
     
@@ -133,6 +132,38 @@ body {
     background-color:#BEC1BB;
 }
 
+.flex-buscador{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-top: 1px solid #828485;
+    padding: 20px 0px;
+    height: 100vh;
+    max-width: 380px;
+    position:sticky;
+    bottom: 0;
+    background: #CDC3E6;
+    opacity: .9;
+}
+.buscador{
+    display: flex;
+}
+.buscador input {
+    border: none;
+    height: 36px;
+    font-size: 14px;
+    padding-left: 4px;
+}
+.searchButton {
+    width: 40px;
+    height: 36px;
+    background: #c5a6ff;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+  
 .open-sans-regular {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
