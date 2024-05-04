@@ -33,6 +33,10 @@ body {
     padding: 20px 0px;
     width: 100%;
 }
+.thumbnail-tiny:hover, .thumbnail-normal:hover {
+    background-color: #E8EBE4;
+    cursor: pointer;
+}
 .thumbnail-tiny img{
     width: 32px;
     border-radius: 50%;
@@ -42,6 +46,7 @@ body {
 }
 .thumbnail-tiny small{
     font-size: 10px;
+    color: #828485;
 }
 
 .thumbnail-normal img{
@@ -60,6 +65,9 @@ body {
     flex-direction: column;
     flex-grow: 5;
 }
+.user-info p{
+    font-size: 1rem;
+}
 .user-icons {
     justify-content:center;
     align-self:center;
@@ -73,7 +81,6 @@ body {
 }
 .user-icons li{
     list-style: none;
-    
 }
 
 .chat{
@@ -93,6 +100,7 @@ body {
 }
 .call-to-action img{
     width: 15rem;
+    border-radius: 10px;
 }
 .call-to-action .titulo{
     font-size: 45px;
@@ -113,6 +121,7 @@ body {
 .flex-newchat{
     color: white;
     background-color: #c5a6ff;
+    font-size: larger;
     height: 4rem;
     width: 75%;
     cursor: pointer;
@@ -137,4 +146,6 @@ body {
     font-weight: 700;
     font-style: normal;
   }
-  
+  #chat:hover, #hamburgesa:hover{
+    color: #828485;
+  }
